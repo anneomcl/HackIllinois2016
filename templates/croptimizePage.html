@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div id="googleMap"style="width:400px;height:300px;"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('googleMap'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+
+    </script>
+  <button onclick="alert(map.getBounds().getNorthEast());">Get bounds</button>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDktYmJJGTzxdXIAuRwGz9o-E1Y5kVdoCg&callback=initMap"
+    async defer></script>
+  </body>
+</html>
