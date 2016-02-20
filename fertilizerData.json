@@ -1,0 +1,33 @@
+{
+    "links": [
+        {
+            "rel": "self",
+            "uri": "https://apicert.soa-proxy.deere.com/platform/fertilizerTypes"
+        }
+    ],
+    "total": 2,
+    "values": [
+        {
+            "@type": "FertilizerType",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fertilizerTypes/MANURE"
+                }
+            ],
+            "name": "MANURE"
+        },
+        {
+            "@type": "FertilizerType",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fertilizerTypes/FERTILIZER"
+                }
+            ],
+            "name": "FERTILIZER"
+        }
+    ]
+}

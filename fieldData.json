@@ -1,0 +1,480 @@
+{
+    "links": [
+        {
+            "rel": "self",
+            "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields"
+        },
+        {
+            "rel": "nextPage",
+            "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields;start=10;count=10"
+        }
+    ],
+    "total": 15,
+    "values": [
+        {
+            "@type": "Field",
+            "id": "e61b83f4-3a12-431e-8010-596f2466dc27",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/e61b83f4-3a12-431e-8010-596f2466dc27"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "boundaries",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/e61b83f4-3a12-431e-8010-596f2466dc27/boundaries"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "clients",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/e61b83f4-3a12-431e-8010-596f2466dc27/clients"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "notes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/e61b83f4-3a12-431e-8010-596f2466dc27/notes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "farms",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/e61b83f4-3a12-431e-8010-596f2466dc27/farms"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "owningOrganization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "activeBoundary",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/boundaries/e7ab3a06-06ca-4d34-8cb7-6fd2a3640a3d"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/e61b83f4-3a12-431e-8010-596f2466dc27/fieldOperations"
+                }
+            ],
+            "name": "1"
+        },
+        {
+            "@type": "Field",
+            "id": "08db2257-243d-4d47-8a38-51bc55a301b8",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/08db2257-243d-4d47-8a38-51bc55a301b8"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "boundaries",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/08db2257-243d-4d47-8a38-51bc55a301b8/boundaries"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "clients",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/08db2257-243d-4d47-8a38-51bc55a301b8/clients"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "notes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/08db2257-243d-4d47-8a38-51bc55a301b8/notes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "farms",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/08db2257-243d-4d47-8a38-51bc55a301b8/farms"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "owningOrganization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "activeBoundary",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/boundaries/3660e1ff-48f0-453b-a089-f35bff38652d"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/08db2257-243d-4d47-8a38-51bc55a301b8/fieldOperations"
+                }
+            ],
+            "name": "100 Acre"
+        },
+        {
+            "@type": "Field",
+            "id": "4641d460-0000-1000-4033-e1e1e11124e0",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641d460-0000-1000-4033-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "boundaries",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641d460-0000-1000-4033-e1e1e11124e0/boundaries"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "clients",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641d460-0000-1000-4033-e1e1e11124e0/clients"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "notes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641d460-0000-1000-4033-e1e1e11124e0/notes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "farms",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641d460-0000-1000-4033-e1e1e11124e0/farms"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "owningOrganization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "activeBoundary",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/boundaries/deb281c8-615e-4173-8486-6929a2bdedce"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641d460-0000-1000-4033-e1e1e11124e0/fieldOperations"
+                }
+            ],
+            "name": "2"
+        },
+        {
+            "@type": "Field",
+            "id": "464200f2-0000-1000-4038-e1e1e11124e0",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "boundaries",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0/boundaries"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "clients",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0/clients"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "notes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0/notes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "farms",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0/farms"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "owningOrganization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "activeBoundary",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/boundaries/c8592821-f080-4106-b49f-b18410d65d38"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0/fieldOperations"
+                }
+            ],
+            "name": "3"
+        },
+        {
+            "@type": "Field",
+            "id": "4641f7d8-0000-1000-4037-e1e1e11124e0",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641f7d8-0000-1000-4037-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "boundaries",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641f7d8-0000-1000-4037-e1e1e11124e0/boundaries"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "clients",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641f7d8-0000-1000-4037-e1e1e11124e0/clients"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "notes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641f7d8-0000-1000-4037-e1e1e11124e0/notes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "farms",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641f7d8-0000-1000-4037-e1e1e11124e0/farms"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "owningOrganization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "activeBoundary",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/boundaries/02dd8553-b2e8-452d-87e7-b743edf1d4ca"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641f7d8-0000-1000-4037-e1e1e11124e0/fieldOperations"
+                }
+            ],
+            "name": "4"
+        },
+        {
+            "@type": "Field",
+            "id": "fa14f029-831c-456b-a76e-2d3c26207c19",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/fa14f029-831c-456b-a76e-2d3c26207c19"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "boundaries",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/fa14f029-831c-456b-a76e-2d3c26207c19/boundaries"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "clients",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/fa14f029-831c-456b-a76e-2d3c26207c19/clients"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "notes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/fa14f029-831c-456b-a76e-2d3c26207c19/notes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "farms",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/fa14f029-831c-456b-a76e-2d3c26207c19/farms"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "owningOrganization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "activeBoundary",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/boundaries/efde8081-50b8-40ad-ae66-5044426e8431"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/fa14f029-831c-456b-a76e-2d3c26207c19/fieldOperations"
+                }
+            ],
+            "name": "5"
+        },
+        {
+            "@type": "Field",
+            "id": "5dd751cf-dd11-4425-8c8d-21afd2bae755",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/5dd751cf-dd11-4425-8c8d-21afd2bae755"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "boundaries",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/5dd751cf-dd11-4425-8c8d-21afd2bae755/boundaries"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "clients",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/5dd751cf-dd11-4425-8c8d-21afd2bae755/clients"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "notes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/5dd751cf-dd11-4425-8c8d-21afd2bae755/notes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "farms",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/5dd751cf-dd11-4425-8c8d-21afd2bae755/farms"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "owningOrganization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "activeBoundary",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/boundaries/08aac0dc-7d25-4abe-808a-a171a6f5cfb9"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/5dd751cf-dd11-4425-8c8d-21afd2bae755/fieldOperations"
+                }
+            ],
+            "name": "6"
+        },
+        {
+            "@type": "Field",
+            "id": "4641dc70-0000-1000-4033-e1e1e11124e0",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641dc70-0000-1000-4033-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "boundaries",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641dc70-0000-1000-4033-e1e1e11124e0/boundaries"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "clients",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641dc70-0000-1000-4033-e1e1e11124e0/clients"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "notes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641dc70-0000-1000-4033-e1e1e11124e0/notes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "farms",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641dc70-0000-1000-4033-e1e1e11124e0/farms"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "owningOrganization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "activeBoundary",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/boundaries/33478bc7-d857-49b0-a97c-edb10025b7e2"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/4641dc70-0000-1000-4033-e1e1e11124e0/fieldOperations"
+                }
+            ],
+            "name": "7"
+        },
+        {
+            "@type": "Field",
+            "id": "524472e4-0000-1000-7f8b-e1e1e1377160",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/524472e4-0000-1000-7f8b-e1e1e1377160"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "boundaries",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/524472e4-0000-1000-7f8b-e1e1e1377160/boundaries"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "clients",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/524472e4-0000-1000-7f8b-e1e1e1377160/clients"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "notes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/524472e4-0000-1000-7f8b-e1e1e1377160/notes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "farms",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/524472e4-0000-1000-7f8b-e1e1e1377160/farms"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "owningOrganization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "activeBoundary",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/boundaries/59888858-2ae2-439f-9017-f7696fe38f14"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/524472e4-0000-1000-7f8b-e1e1e1377160/fieldOperations"
+                }
+            ],
+            "name": "Bobos"
+        },
+        {
+            "@type": "Field",
+            "id": "43436036-0b73-4ced-a4df-c73af1909d11",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/43436036-0b73-4ced-a4df-c73af1909d11"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "boundaries",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/43436036-0b73-4ced-a4df-c73af1909d11/boundaries"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "clients",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/43436036-0b73-4ced-a4df-c73af1909d11/clients"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "notes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/43436036-0b73-4ced-a4df-c73af1909d11/notes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "farms",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/43436036-0b73-4ced-a4df-c73af1909d11/farms"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "owningOrganization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/43436036-0b73-4ced-a4df-c73af1909d11/fieldOperations"
+                }
+            ],
+            "name": "Field 1"
+        }
+    ]
+}

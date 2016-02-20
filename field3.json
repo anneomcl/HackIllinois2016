@@ -1,0 +1,455 @@
+{
+    "links": [
+        {
+            "rel": "self",
+            "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0/fieldOperations"
+        },
+        {
+            "rel": "nextPage",
+            "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0/fieldOperations;start=10;count=10"
+        }
+    ],
+    "total": 15,
+    "values": [
+        {
+            "@type": "FieldOperation",
+            "cropSeason": "2007",
+            "endDate": "2007-05-09T23:30:38.750Z",
+            "fieldOperationType": "application",
+            "id": "MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2OA",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2OA"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2OA/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2OA"
+                }
+            ],
+            "product": {
+                "@type": "Product",
+                "name": "Harness Extra",
+                "tankMix": false
+            },
+            "startDate": "2007-05-09T23:13:25.250Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropSeason": "2008",
+            "endDate": "2008-06-01T16:32:55.000Z",
+            "fieldOperationType": "application",
+            "id": "MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2OQ",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2OQ"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2OQ/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2OQ"
+                }
+            ],
+            "product": {
+                "@type": "Product",
+                "carrier": {
+                    "@type": "Component",
+                    "name": "Water",
+                    "rate": {
+                        "@type": "EventMeasurement",
+                        "unitId": "gal1ac-1",
+                        "value": 15.0
+                    }
+                },
+                "components": [
+                    {
+                        "@type": "Component",
+                        "name": "Roundup Original MAX",
+                        "rate": {
+                            "@type": "EventMeasurement",
+                            "unitId": "ozm1ac-1",
+                            "value": 32.0
+                        }
+                    },
+                    {
+                        "@type": "Component",
+                        "name": "Ammonium Sulfate",
+                        "rate": {
+                            "@type": "EventMeasurement",
+                            "unitId": "lb1ac-1",
+                            "value": 1.0
+                        }
+                    }
+                ],
+                "name": "Tank Mix",
+                "rate": {
+                    "@type": "EventMeasurement",
+                    "unitId": "gal1ac-1",
+                    "value": 15.0
+                },
+                "tankMix": true
+            },
+            "startDate": "2008-06-01T16:10:30.000Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropSeason": "2008",
+            "endDate": "2008-07-17T18:38:38.000Z",
+            "fieldOperationType": "application",
+            "id": "MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2YQ",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2YQ"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2YQ/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2YQ"
+                }
+            ],
+            "product": {
+                "@type": "Product",
+                "carrier": {
+                    "@type": "Component",
+                    "name": "Water",
+                    "rate": {
+                        "@type": "EventMeasurement",
+                        "unitId": "gal1ac-1",
+                        "value": 15.0
+                    }
+                },
+                "components": [
+                    {
+                        "@type": "Component",
+                        "name": "Roundup Original MAX",
+                        "rate": {
+                            "@type": "EventMeasurement",
+                            "unitId": "floz1ac-1",
+                            "value": 32.0
+                        }
+                    },
+                    {
+                        "@type": "Component",
+                        "name": "Ammonium Sulfate",
+                        "rate": {
+                            "@type": "EventMeasurement",
+                            "unitId": "lb1ac-1",
+                            "value": 1.0
+                        }
+                    }
+                ],
+                "name": "Tank Mix",
+                "rate": {
+                    "@type": "EventMeasurement",
+                    "unitId": "gal1ac-1",
+                    "value": 15.0
+                },
+                "tankMix": true
+            },
+            "startDate": "2008-07-17T18:36:01.500Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropName": "CORN_WET",
+            "cropSeason": "2009",
+            "endDate": "2009-11-14T13:59:04.942Z",
+            "fieldOperationType": "harvest",
+            "id": "MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Yg",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Yg"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Yg/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Yg"
+                }
+            ],
+            "startDate": "2009-11-01T18:01:42.000Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropName": "CORN_WET",
+            "cropSeason": "2009",
+            "endDate": "2009-05-03T18:21:19.250Z",
+            "fieldOperationType": "seeding",
+            "id": "MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Yw",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Yw"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Yw/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Yw"
+                }
+            ],
+            "startDate": "2009-05-03T17:34:08.750Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropName": "SOYBEANS",
+            "cropSeason": "2010",
+            "endDate": "2010-10-03T22:13:02.457Z",
+            "fieldOperationType": "harvest",
+            "id": "MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2ZA",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2ZA"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2ZA/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2ZA"
+                }
+            ],
+            "startDate": "2010-10-03T20:29:28.250Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropName": "SOYBEANS",
+            "cropSeason": "2010",
+            "endDate": "2010-05-09T23:42:56.508Z",
+            "fieldOperationType": "seeding",
+            "id": "MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2ZQ",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2ZQ"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2ZQ/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2ZQ"
+                }
+            ],
+            "startDate": "2010-05-09T22:32:36.250Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropName": "CORN_WET",
+            "cropSeason": "2011",
+            "endDate": "2011-10-18T20:42:48.333Z",
+            "fieldOperationType": "harvest",
+            "id": "MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Zg",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Zg"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Zg/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY2Zg"
+                }
+            ],
+            "startDate": "2011-09-27T20:48:31.000Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropName": "CORN_WET",
+            "cropSeason": "2011",
+            "endDate": "2011-04-30T21:32:52.493Z",
+            "fieldOperationType": "seeding",
+            "id": "MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY3MA",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY3MA"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY3MA/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY3MA"
+                }
+            ],
+            "startDate": "2011-04-30T20:29:09.000Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropName": "SOYBEANS",
+            "cropSeason": "2012",
+            "endDate": "2012-05-12T13:26:30.423Z",
+            "fieldOperationType": "seeding",
+            "id": "MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY3Mg",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/464200f2-0000-1000-4038-e1e1e11124e0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY3Mg"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY3Mg/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU1ZmExM2NiZWJlMjg5MGMzY2I1NjY3Mg"
+                }
+            ],
+            "startDate": "2012-05-09T12:46:41.000Z"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "links": [
+        {
+            "rel": "self",
+            "uri": "https://apicert.soa-proxy.deere.com/platform/chemicalTypes"
+        }
+    ],
+    "total": 6,
+    "values": [
+        {
+            "@type": "ChemicalType",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/chemicalTypes/ADDITIVE"
+                }
+            ],
+            "name": "ADDITIVE"
+        },
+        {
+            "@type": "ChemicalType",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/chemicalTypes/FUNGICIDE"
+                }
+            ],
+            "name": "FUNGICIDE"
+        },
+        {
+            "@type": "ChemicalType",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/chemicalTypes/INSECTICIDE"
+                }
+            ],
+            "name": "INSECTICIDE"
+        },
+        {
+            "@type": "ChemicalType",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/chemicalTypes/HERBICIDE"
+                }
+            ],
+            "name": "HERBICIDE"
+        },
+        {
+            "@type": "ChemicalType",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/chemicalTypes/GROWTH_REGULATOR"
+                }
+            ],
+            "name": "GROWTH_REGULATOR"
+        },
+        {
+            "@type": "ChemicalType",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/chemicalTypes/NITROGEN_STABILIZER"
+                }
+            ],
+            "name": "NITROGEN_STABILIZER"
+        }
+    ]
+}

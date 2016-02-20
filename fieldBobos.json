@@ -1,0 +1,119 @@
+{
+    "links": [
+        {
+            "rel": "self",
+            "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/524472e4-0000-1000-7f8b-e1e1e1377160/fieldOperations"
+        }
+    ],
+    "total": 3,
+    "values": [
+        {
+            "@type": "FieldOperation",
+            "cropName": "COTTON",
+            "cropSeason": "2013",
+            "endDate": "2013-10-20T22:30:36.363Z",
+            "fieldOperationType": "harvest",
+            "id": "MjIzMDMxXzU2YTkyNzAwYzJmZWRlMjExNDM0MzRjOQ",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/524472e4-0000-1000-7f8b-e1e1e1377160"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU2YTkyNzAwYzJmZWRlMjExNDM0MzRjOQ"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU2YTkyNzAwYzJmZWRlMjExNDM0MzRjOQ/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU2YTkyNzAwYzJmZWRlMjExNDM0MzRjOQ"
+                }
+            ],
+            "startDate": "2013-10-20T17:45:06.000Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropName": "COTTON",
+            "cropSeason": "2013",
+            "endDate": "2013-05-01T14:14:34.087Z",
+            "fieldOperationType": "seeding",
+            "id": "MjIzMDMxXzU2YTkyNzA3YzJmZWRlMjExNDM0MzRjYg",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/524472e4-0000-1000-7f8b-e1e1e1377160"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU2YTkyNzA3YzJmZWRlMjExNDM0MzRjYg"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU2YTkyNzA3YzJmZWRlMjExNDM0MzRjYg/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU2YTkyNzA3YzJmZWRlMjExNDM0MzRjYg"
+                }
+            ],
+            "startDate": "2013-05-01T12:57:20.000Z"
+        },
+        {
+            "@type": "FieldOperation",
+            "cropName": "COTTON",
+            "cropSeason": "2013",
+            "endDate": "2013-05-14T22:30:22.315Z",
+            "fieldOperationType": "seeding",
+            "id": "MjIzMDMxXzU2YTkyNzBmNWU0ODg5MDhiOGU1MzNjYQ",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/organizations/223031/fields/524472e4-0000-1000-7f8b-e1e1e1377160"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU2YTkyNzBmNWU0ODg5MDhiOGU1MzNjYQ"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "measurementTypes",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU2YTkyNzBmNWU0ODg5MDhiOGU1MzNjYQ/measurementTypes"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "shapeFile",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/fieldOperations/MjIzMDMxXzU2YTkyNzBmNWU0ODg5MDhiOGU1MzNjYQ"
+                }
+            ],
+            "startDate": "2013-05-14T21:06:37.000Z"
+        }
+    ]
+}
