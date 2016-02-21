@@ -2,6 +2,19 @@ import json
 from algorithm import croptimize
 import numpy
 
+#croptimize(a, b, c, DIVERSITY, data, data)
+def map_diversity(jsonData):
+    data = centroid_data(jsonData)
+    return map_crop_to_field(croptimize(.33, .33, .33, 3, len(data)), data)
+
+def map_water(jsonData):
+    data = centroid_data(jsonData)
+    return map_crop_to_field(croptimize(.6, .1, .3, 1.5, len(data)), data)
+
+def map_chemical(jsonData):
+    data = centroid_data(jsonData)
+    return map_crop_to_field(croptimize(.1, .1, .8, 1.5, len(data)), data)
+
 #input map_crop_to_field
 #returns {"CORN" : [(lat, long), (lat, long)...] ... }
 def map_balanced(jsonData):
