@@ -13,13 +13,23 @@
 //          zoom: 8
           map = new google.maps.Map(document.getElementById('googleMap'), {
     zoom: 4,
-    center: {lat: -28, lng: 137}
+    center: {lat: 40.42277, lng: -89.33}
 
 
         });
+        map.data.loadGeoJson('static/cods.json');
 
-     map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
 
+          map.data.addListener('addfeature', function(event) {
+            console.log(event);
+          });
+     //map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
+
+      }
+
+      function loadGeoJsonString(geoString) {
+          var geojson = JSON.parse(geoString);
+          map.data.addGeoJson(geojson);
       }
         function consoleBoundries(){
             var ne=map.getBounds().getNorthEast();
@@ -40,8 +50,8 @@
                         "SW":swPass
                 },
                 success=function(data) {
-                    map.data.loadGeoJson('cods.json');
-//                    map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
+                    loadGeoJsonString(data);
+                 map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
                    alert('page content: ' + data);
                 }
             );
