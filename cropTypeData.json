@@ -1,0 +1,235 @@
+{
+    "links": [
+        {
+            "rel": "self",
+            "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes"
+        },
+        {
+            "rel": "nextPage",
+            "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes;start=10;count=10"
+        }
+    ],
+    "total": 176,
+    "values": [
+        {
+            "@type": "CropType",
+            "densityFactor": {
+                "@type": "Density",
+                "unit": "lb1bale-1",
+                "value": 60.01
+            },
+            "id": "1",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/ALFALFA"
+                }
+            ],
+            "name": "ALFALFA",
+            "standardPayableMoisture": {
+                "@type": "Moisture",
+                "unit": "%",
+                "value": 12.0
+            }
+        },
+        {
+            "@type": "CropType",
+            "densityFactor": {
+                "@type": "Density",
+                "unit": "lb1bu-1",
+                "value": 47.99
+            },
+            "id": "2",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/BARLEY"
+                }
+            ],
+            "name": "BARLEY",
+            "standardPayableMoisture": {
+                "@type": "Moisture",
+                "unit": "%",
+                "value": 14.0
+            }
+        },
+        {
+            "@type": "CropType",
+            "densityFactor": {
+                "@type": "Density",
+                "unit": "lb1bu-1",
+                "value": 60.01
+            },
+            "id": "3",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/EDIBLE_BEANS"
+                }
+            ],
+            "name": "EDIBLE_BEANS",
+            "standardPayableMoisture": {
+                "@type": "Moisture",
+                "unit": "%",
+                "value": 14.5
+            }
+        },
+        {
+            "@type": "CropType",
+            "densityFactor": {
+                "@type": "Density",
+                "unit": "lb1bu-1",
+                "value": 61.99
+            },
+            "id": "4",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/NAVY_BEANS"
+                }
+            ],
+            "name": "NAVY_BEANS",
+            "standardPayableMoisture": {
+                "@type": "Moisture",
+                "unit": "%",
+                "value": 14.5
+            }
+        },
+        {
+            "@type": "CropType",
+            "densityFactor": {
+                "@type": "Density",
+                "unit": "lb1bu-1",
+                "value": 52.01
+            },
+            "id": "5",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/CANOLA"
+                }
+            ],
+            "name": "CANOLA",
+            "standardPayableMoisture": {
+                "@type": "Moisture",
+                "unit": "%",
+                "value": 10.0
+            }
+        },
+        {
+            "@type": "CropType",
+            "densityFactor": {
+                "@type": "Density",
+                "unit": "lb1bu-1",
+                "value": 56.0
+            },
+            "id": "6",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/FLAX"
+                }
+            ],
+            "name": "FLAX",
+            "standardPayableMoisture": {
+                "@type": "Moisture",
+                "unit": "%",
+                "value": 7.0
+            }
+        },
+        {
+            "@type": "CropType",
+            "densityFactor": {
+                "@type": "Density",
+                "unit": "lb1bu-1",
+                "value": 22.0
+            },
+            "id": "7",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/GRASS_SEEDS"
+                }
+            ],
+            "name": "GRASS_SEEDS",
+            "standardPayableMoisture": {
+                "@type": "Moisture",
+                "unit": "%",
+                "value": 12.0
+            }
+        },
+        {
+            "@type": "CropType",
+            "densityFactor": {
+                "@type": "Density",
+                "unit": "lb1bu-1",
+                "value": 60.01
+            },
+            "id": "8",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/LENTILS"
+                }
+            ],
+            "name": "LENTILS",
+            "standardPayableMoisture": {
+                "@type": "Moisture",
+                "unit": "%",
+                "value": 10.5
+            }
+        },
+        {
+            "@type": "CropType",
+            "densityFactor": {
+                "@type": "Density",
+                "unit": "lb1bu-1",
+                "value": 50.0
+            },
+            "id": "9",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/MILLET"
+                }
+            ],
+            "name": "MILLET",
+            "standardPayableMoisture": {
+                "@type": "Moisture",
+                "unit": "%",
+                "value": 11.0
+            }
+        },
+        {
+            "@type": "CropType",
+            "densityFactor": {
+                "@type": "Density",
+                "unit": "lb1bu-1",
+                "value": 60.01
+            },
+            "id": "10",
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/MUSTARD"
+                }
+            ],
+            "name": "MUSTARD",
+            "standardPayableMoisture": {
+                "@type": "Moisture",
+                "unit": "%",
+                "value": 8.0
+            }
+        }
+    ]
+}
