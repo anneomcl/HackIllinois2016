@@ -1,5 +1,7 @@
+import pickle
 from requests_oauthlib.oauth1_session import OAuth1Session
 import json
+from numpy import random
 
 DEFAULT_JSON_HEADER = {'Accept': 'application/vnd.deere.axiom.v3+json'}
 base_url = 'https://apicert.soa-proxy.deere.com/platform'
@@ -9,6 +11,12 @@ oauth_session = OAuth1Session(client_key, client_secret=client_secret,
                                       resource_owner_key='c2eb1ca4-dc44-4d92-adcd-d0888359af78',
                                       resource_owner_secret='Xi42JPNcK5xKoxsiv2MuK5Wr/TPkGRzmu/oAlCIOk19VBdwP8RzE+ZzAms0dFL7FS96m+qX7ag2Z7WuO24W01bxdZkHaiWf24lNR+BaQwu4=')
 r = oauth_session.get(base_url + '/', headers=DEFAULT_JSON_HEADER)
+
+def corn_or_soy():
+    if random.randint(2) == 0:
+        return "CORN"
+    else:
+        return "SOY"
 
 def my_handle_endpoint(this_choice):
     _response = None
@@ -52,12 +60,19 @@ def get_Deere_Data():
                                 if crop_item["fieldOperationType"] == "application":
                                     if name not in product_sprayed:
                                         product_sprayed[name] = {}
-                                    #product_sprayed[name]["total"] = (json_data_field2["values"][0]["area"]["value"],
-                                                                  #json_data_field2["values"][0]["averageMaterial"]["value"])
                                     for product in json_data_field2["values"][0]["productTotals"]:
                                         product_sprayed[name] = [product["name"],
                                                                  (str(product["averageMaterial"]["value"]) + product["averageMaterial"]["unitId"]),
-                                                                product["averageMaterial"]["value"]]
+                                                                product["averageMaterial"]["value"],
+                                                                corn_or_soy()]
+                                        if "components" in crop_item["product"]:
+                                            for comp in crop_item["product"]["components"]:
+                                                product_sprayed[name].append((comp["name"], comp['rate']["value"]))
+                                        elif "name" in crop_item["product"]:
+                                            product_sprayed[name].append(crop_item["product"]["name"])
+                                        else:
+                                            product_sprayed[name].append("WATER")
+
                                 if crop_item["fieldOperationType"] == "seeding":
                                     seeds_planted[name] = ((json_data_field2["values"][0]["area"]["value"],
                                                                      crop_item["cropName"],
@@ -111,4 +126,10 @@ def get_Deere_Data():
     johndeere_data["harvest"] = crops_harvested
     johndeere_data["seeds"] = seeds_planted
 
+    f = open('JOHNDEEREdata.pkl', 'wb')
+    pickle.dump(johndeere_data, f)
+    f.close()
+
     return johndeere_data
+
+a = get_Deere_Data()
