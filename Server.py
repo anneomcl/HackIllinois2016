@@ -27,7 +27,8 @@ def cluCaller():
     # print(neValue)
     # print(swValue)
     r=cluGetter(neValue, swValue)
-    return r
+    print('testerPrint   ', r)
+    return JSON.dumps(r)
 
 #protobuffer
 
@@ -57,8 +58,16 @@ def cluGetter(ne, sw):
                       headers=headers)
 
     rFeatures=r.json()
-    print(r.json()['features'][0]['geometry']['coordinates'])
-    return r.json()
+    try:
+        with open("static/cods.json", 'w') as f:
+            JSON.dump(rFeatures, f)
+    except:
+        pass
+    try:
+        print(r.json()['features'][0]['geometry']['coordinates'])
+    except:
+        pass
+    return rFeatures
 
 
 
@@ -75,10 +84,10 @@ def croptimizePage():
                       params=params,
                       headers=headers)
 
-    masterAccessToken=json.loads(r.text)['access_token']
-    # print(json.loads(r.text)['access_token'])
+    # masterAccessToken=json.loads(r.text)['access_token']
+    print(json.loads(r.text))
 
-    # print(oAuthReturnCode)
+    print(oAuthReturnCode)
    #print(request.args.get('code'))
     return render_template('croptimizePage.html')
 
