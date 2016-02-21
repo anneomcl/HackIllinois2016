@@ -48,7 +48,7 @@
                     "uri": "https://apicert.soa-proxy.deere.com/platform/cropTypes/BARLEY"
                 }
             ],
-            "name": "BARLEY",
+            "name": "",
             "standardPayableMoisture": {
                 "@type": "Moisture",
                 "unit": "%",
