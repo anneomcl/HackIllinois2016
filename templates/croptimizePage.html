@@ -2,6 +2,7 @@
 <html>
   <head>
       <style>
+          @import "compass/css3";
           body, html {
               height: 100%;
               width: 100%;
@@ -11,10 +12,46 @@
               width: 100%; height: 75%;
             }
 
+          button, .button, input[type=submit] {
+  border: 0;
+  background: #5786c1;
+  color: white;
+          font-family: monospace, monospace;
+  padding: 8px 14px;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  /* needed for anchors */
+  position: relative;
+  box-shadow: 1px 0px #3a587f, 0px 1px #4171ae, 2px 1px #3a587f, 1px 2px #4171ae, 3px 2px #3a587f, 2px 3px #4171ae, 4px 3px #3a587f, 3px 4px #4171ae, 5px 4px #3a587f, 4px 5px #4171ae, 6px 5px #3a587f, 5px 6px #4171ae;
+}
+button:hover, button:focus, button.hover, button.focus, .button:hover, .button:focus, .button.hover, .button.focus, input[type=submit]:hover, input[type=submit]:focus, input[type=submit].hover, input[type=submit].focus {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 0px #3a587f, 0px 1px #4171ae, 2px 1px #3a587f, 1px 2px #4171ae, 3px 2px #3a587f, 2px 3px #4171ae, 4px 3px #3a587f, 3px 4px #4171ae;
+}
+button:active, button.active, .button:active, .button.active, input[type=submit]:active, input[type=submit].active {
+  transform: translate(4px, 4px);
+  box-shadow: 1px 0px #3a587f, 0px 1px #4171ae, 2px 1px #3a587f, 1px 2px #4171ae;
+}
+
+
+body {
+  padding: 50px;
+  background: lightblue;
+}
+.col {
+  width: 160px;
+  float: left;
+}
+
 
       </style>
   </head>
   <body>
+    <h1 style = "font-family: monospace, monospace; font-weight: bold;
+  font-size: 56px; text-align: center;
+  text-decoration: none;color: white;">CROPTIMIZE</h1>
     <div id="googleMap"></div>
     <script>
       var map;
@@ -135,11 +172,13 @@
 
     </script>
 
-
-  <button onclick="consoleBoundries('balanced');">Balanced</button>
-    <button onclick="consoleBoundries('chemfree');">Chemical Free</button>
-<button onclick="consoleBoundries('savewater');">Save Water</button>
-    <button onclick="consoleBoundries('diversify');">Diversity</button>
+    <div>
+        <br><br>
+    <div class = "first" style="left: 10%; position: relative;display: inline-block;"><button onclick="consoleBoundries('balanced');">Balanced</button></div>
+  <div class = "second" style="left: 25%; position: relative;display: inline-block;"><button onclick="consoleBoundries('chemfree');">Chemical Free</button></div>
+    <div class = "third" style="left: 40%; position: relative;display: inline-block;"><button onclick="consoleBoundries('savewater');">Save Water</button></div>
+<div class = "fourth" style="left: 55%; position: relative;display: inline-block;"><button onclick="consoleBoundries('diversify');">Diversity</button></div>
+</div>
 
 
 
