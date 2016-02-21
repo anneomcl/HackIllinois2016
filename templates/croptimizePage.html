@@ -40,11 +40,12 @@
      //map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
 
       }
-      function ajaxIconCall(data2){
+      function ajaxIconCall(data2, typer){
         console.log("HELLOOOfdsfdsfdsfdsfdsfsfsfdsfOO");
+          alert('page content22: ' + typer);
       $.get(
                 url="cropImages",
-                data={},
+                data={"type": typer},
                 success=function(data) {
 
                     var jsonparse;
@@ -101,7 +102,7 @@
           var geojson = JSON.parse(geoString);
           map.data.addGeoJson(geojson);
       }
-        function consoleBoundries(){
+        function consoleBoundries(typer){
             var ne=map.getBounds().getNorthEast();
             var sw = map.getBounds().getSouthWest();
             var nw = new google.maps.LatLng(ne.lat(), sw.lng());
@@ -112,8 +113,8 @@
             console.log(nw.toString());
             console.log(se.toString());
 
-            var nePass=encodeURIComponent(ne.toString())
-            var swPass=encodeURIComponent(sw.toString())
+            var nePass=encodeURIComponent(ne.toString());
+            var swPass=encodeURIComponent(sw.toString());
             $.get(
                 url="sendBounds",
                 data={"NE":nePass,
@@ -123,7 +124,7 @@
                     loadGeoJsonString(data);
 //                 map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
 //                   alert('page content: ' + data);
-                ajaxIconCall(data);
+                ajaxIconCall(data, typer);
 
 
                 }
@@ -135,10 +136,10 @@
     </script>
 
 
-  <button onclick="consoleBoundries();">Balanced</button>
-    <button onclick="consoleBoundries();">Chemical Free</button>
-<button onclick="consoleBoundries();">Save Water</button>
-    <button onclick="consoleBoundries();">Diversity</button>
+  <button onclick="consoleBoundries('balanced');">Balanced</button>
+    <button onclick="consoleBoundries('chemfree');">Chemical Free</button>
+<button onclick="consoleBoundries('savewater');">Save Water</button>
+    <button onclick="consoleBoundries('diversify');">Diversity</button>
 
 
 

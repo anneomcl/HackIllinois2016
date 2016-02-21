@@ -2,24 +2,30 @@ import json
 from algorithm import croptimize
 import numpy
 
-#croptimize(a, b, c, DIVERSITY, data, data)
+
+
+#croptimize(water, profit, chem, DIVERSITY, data, data)
 def map_diversity(jsonData):
+    print('doing diversity')
     data = centroid_data(jsonData)
-    return map_crop_to_field(croptimize(.33, .33, .33, 3, len(data)), data)
+    return map_crop_to_field(croptimize(.33, .33, .33, 5, len(data)), data)
 
 def map_water(jsonData):
+    print('doing water')
     data = centroid_data(jsonData)
-    return map_crop_to_field(croptimize(.6, .1, .3, 1.5, len(data)), data)
+    return map_crop_to_field(croptimize(.9, .05, .05, 1.2, len(data)), data)
 
 def map_chemical(jsonData):
+    print('doing chem')
     data = centroid_data(jsonData)
-    return map_crop_to_field(croptimize(.1, .1, .8, 1.5, len(data)), data)
+    return map_crop_to_field(croptimize(.05, .05, .9, 1.2, len(data)), data)
 
 #input map_crop_to_field
 #returns {"CORN" : [(lat, long), (lat, long)...] ... }
 def map_balanced(jsonData):
+    print('doing balanced')
     data = centroid_data(jsonData)
-    return map_crop_to_field(croptimize(.33, .33, .33, 2, len(data)), data)
+    return map_crop_to_field(croptimize(.25, .5, .25, 1.95, len(data)), data)
 
 def map_crop_to_field(crop_counts, centroids):
 

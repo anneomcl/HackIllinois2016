@@ -4,7 +4,7 @@ import requests
 import json as JSON
 import urllib.parse
 from decimal import Decimal
-from visualization import map_balanced
+from visualization import map_balanced, map_diversity, map_water, map_chemical
 
 
 app= Flask(__name__)
@@ -26,10 +26,22 @@ def showSignUp():
 
 @app.route('/cropImages')
 def imageCaller():
+    typeValue=urllib.parse.unquote(request.args.get('type'))
+    print(typeValue)
     global masterDataPasser
     jsonpasser=masterDataPasser
     print(map_balanced(jsonpasser))
+    if typeValue=='balanced':
+        return JSON.dumps(map_balanced(jsonpasser))
+    elif typeValue=='chemfree':
+        return JSON.dumps(map_chemical(jsonpasser))
+    elif typeValue=='savewater':
+        return JSON.dumps(map_water(jsonpasser))
+    elif typeValue=='diversify':
+        return JSON.dumps(map_diversity(jsonpasser))
+
     return JSON.dumps(map_balanced(jsonpasser))
+
 
 
 @app.route('/sendBounds')
