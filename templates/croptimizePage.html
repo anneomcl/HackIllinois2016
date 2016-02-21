@@ -6,18 +6,56 @@
     <div id="googleMap"style="width:400px;height:300px;"></div>
     <script>
       var map;
+      var cool=1000;
       function initMap() {
-        map = new google.maps.Map(document.getElementById('googleMap'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
+//        map = new google.maps.Map(document.getElementById('googleMap'), {
+//          center: {lat: 40.42277, lng: -89.33},
+//          zoom: 8
+          map = new google.maps.Map(document.getElementById('googleMap'), {
+    zoom: 4,
+    center: {lat: -28, lng: 137}
+
+
         });
+
+     map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
+
       }
+        function consoleBoundries(){
+            var ne=map.getBounds().getNorthEast();
+            var sw = map.getBounds().getSouthWest();
+            var nw = new google.maps.LatLng(ne.lat(), sw.lng());
+            var se = new google.maps.LatLng(sw.lat(), ne.lng());
+            console.log("HELLOOOOO");
+            console.log(ne.toString());
+            console.log(sw.toString());
+            console.log(nw.toString());
+            console.log(se.toString());
+
+            var nePass=encodeURIComponent(ne.toString())
+            var swPass=encodeURIComponent(sw.toString())
+            $.get(
+                url="sendBounds",
+                data={"NE":nePass,
+                        "SW":swPass
+                },
+                success=function(data) {
+                    map.data.loadGeoJson('cods.json');
+//                    map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
+                   alert('page content: ' + data);
+                }
+            );
+        }
+
 
     </script>
-  <button onclick="alert(map.getBounds().getNorthEast());">Get bounds</button>
+
+
+  <button onclick="consoleBoundries();">Get bounds</button>
 
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDktYmJJGTzxdXIAuRwGz9o-E1Y5kVdoCg&callback=initMap"
     async defer></script>
+  <script src="../static/js/jquery-1.12.0.min.js"></script>
   </body>
 </html>
