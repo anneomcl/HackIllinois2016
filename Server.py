@@ -4,10 +4,14 @@ import requests
 import json as JSON
 import urllib.parse
 from decimal import Decimal
+from visualization import map_balanced
+
 
 app= Flask(__name__)
 
 masterAccessToken=-1
+masterDataPasser=[]
+
 
 @app.route("/")
 def main():
@@ -18,8 +22,19 @@ def showSignUp():
     return render_template('signup.html')
 
 
+
+
+@app.route('/cropImages')
+def imageCaller():
+    global masterDataPasser
+    jsonpasser=masterDataPasser
+    print(map_balanced(jsonpasser))
+    return JSON.dumps(map_balanced(jsonpasser))
+
+
 @app.route('/sendBounds')
 def cluCaller():
+    global masterDataPasser
     # here we want to get the value of the key (i.e. ?key=value)
 
     neValue=urllib.parse.unquote(request.args.get('NE'))
@@ -27,6 +42,7 @@ def cluCaller():
     # print(neValue)
     # print(swValue)
     r=cluGetter(neValue, swValue)
+    masterDataPasser=r
     print('testerPrint   ', r)
     return JSON.dumps(r)
 
@@ -58,11 +74,11 @@ def cluGetter(ne, sw):
                       headers=headers)
 
     rFeatures=r.json()
-    try:
-        with open("static/cods.json", 'w') as f:
-            JSON.dump(rFeatures, f)
-    except:
-        pass
+    # try:
+    #     with open("static/cods.json", 'w') as f:
+    #         JSON.dump(rFeatures, f)
+    # except:
+    #     pass
     try:
         print(r.json()['features'][0]['geometry']['coordinates'])
     except:

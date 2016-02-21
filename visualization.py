@@ -2,6 +2,12 @@ import json
 from algorithm import croptimize
 import numpy
 
+#input map_crop_to_field
+#returns {"CORN" : [(lat, long), (lat, long)...] ... }
+def map_balanced(jsonData):
+    data = centroid_data(jsonData)
+    return map_crop_to_field(croptimize(.33, .33, .33, 2, len(data)), data)
+
 def map_crop_to_field(crop_counts, centroids):
 
     crop_counts = dict((k, v) for k, v in crop_counts.items() if v > 0)
@@ -32,14 +38,10 @@ def find_nearest_centroid(start, centroids):
 
 def centroid_data(climate_data):
     centroid = []
-    with open('cods.json', 'r') as f:
+    '''with open('cods.json', 'r') as f:
         str_data = f.read()
-    json_data = json.loads(str_data)
-    for elem in json_data["features"]:
+    json_data = json.loads(str_data)'''
+    print(climate_data)
+    for elem in climate_data["features"]:
         centroid.append(elem["properties"]["centroid"])
-
     return centroid
-
-
-data = centroid_data('cods.json')
-map_crop_to_field(croptimize(.1, .8, .1, 2, len(data)), data)

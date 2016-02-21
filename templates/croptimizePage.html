@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <style>
+          body, html {
+              height: 100%;
+              width: 100%;
+            }
+
+            div#googleMap {
+              width: 100%; height: 75%;
+            }
+
+
+      </style>
   </head>
   <body>
-    <div id="googleMap"style="width:400px;height:300px;"></div>
+    <div id="googleMap"></div>
     <script>
       var map;
       var cool=1000;
@@ -23,10 +35,68 @@
           map.data.addListener('addfeature', function(event) {
             console.log(event);
           });
+
+
      //map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
 
       }
+      function ajaxIconCall(data2){
+        console.log("HELLOOOfdsfdsfdsfdsfdsfsfsfdsfOO");
+      $.get(
+                url="cropImages",
+                data={},
+                success=function(data) {
 
+                    var jsonparse;
+                    var marker;
+                    var myLatLng;
+                        jsonparse=JSON.parse(data);
+                        var p=jsonparse;
+                        for(var key in p) {
+                            if ((p).hasOwnProperty(key)) {
+                                var icon=key;
+
+//                                alert(key + " -> " + p[key]);
+                                for(var latLongTuples in p[key]){
+                                    myLatLng = new google.maps.LatLng({lat:p[key][latLongTuples][1], lng: p[key][latLongTuples][0]});
+                                    console.log(myLatLng.toString());
+
+                                    marker=new google.maps.Marker({
+                                    position: myLatLng,
+                                   icon: 'static/js/'+icon+'.png',
+                                   // icon: 'http://thumb10.shutterstock.com/photos/thumb_large/548344/104023211.jpg',
+                                    map: map
+                                  });
+
+//                                    alert(p[key][latLongTuples][0]);
+                                }
+
+                            }
+                        }
+
+
+                    myLatLng = new google.maps.LatLng({lat:40.42277, lng: -89.33});
+
+
+                    marker = new google.maps.Marker({
+                    position: myLatLng,
+                    icon: 'static/js/ALFALFA.png',
+                   // icon: 'http://thumb10.shutterstock.com/photos/thumb_large/548344/104023211.jpg',
+                    map: map
+                  });
+                    myLatLng = new google.maps.LatLng({lat:40.42277, lng: -89.33});
+                    marker = new google.maps.Marker({
+                    position: myLatLng,
+                    icon: 'static/js/ALFALFA.png',
+                   // icon: 'http://thumb10.shutterstock.com/photos/thumb_large/548344/104023211.jpg',
+                    map: map
+                  });
+
+//                   alert('page content: '+ data);
+                }
+            );
+
+      }
       function loadGeoJsonString(geoString) {
           var geojson = JSON.parse(geoString);
           map.data.addGeoJson(geojson);
@@ -51,10 +121,14 @@
                 },
                 success=function(data) {
                     loadGeoJsonString(data);
-                 map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
-                   alert('page content: ' + data);
+//                 map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
+//                   alert('page content: ' + data);
+                ajaxIconCall(data);
+
+
                 }
             );
+
         }
 
 
